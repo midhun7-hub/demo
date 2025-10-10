@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h1 id="changes" style="background-color: rgb(94, 75, 49); text-align: center; color: white; height: 100px; ">Rock Paper Scissor</h1>
+    <button onclick="play('stone')" style="width: 300px; height: 150px; margin-left: 20%;">Stone</button>
+    <button onclick="play('paper')" style="width: 300px; height: 150px;">Paper</button>
+    <button onclick="play('scissor')" style="width: 300px; height: 150px;">Scissor</button>
+    <p id="res" style="padding: 10%; font-size: 50px; font-style: italic;"></p>
+    <script>
+        function play(user){
+            let choice = ['stone','paper','scissor'];
+            const comp = choice[Math.floor(Math.random()*3)];
+            let res ='';
+            if(user==comp){
+                res=`Draw, both choosed ${user}`;
+            }
+            else if((user=='stone' && comp=='scissor')||(user=='paper' && comp=='stone')||(user=='scissor' && comp=='paper')){
+                res=`User won! User: ${user} Computer: ${comp}`;
+            }
+            else{
+                res=`Computer won! User: ${user} Computer: ${comp}`;
+            }
+            document.getElementById("res").innerHTML=res;
+        }
+    </script>
+</body>
+</html>
