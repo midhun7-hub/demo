@@ -1,0 +1,139 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.nav{
+    display: flex;
+    background-color: rgb(57, 54, 54);
+    height: 70px;
+}
+.navbar ul{
+    display: flex;
+    margin-left: 850px;
+    gap: 80px;
+    padding: 20px;
+    
+}
+.navbar ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li {
+    list-style: none;
+}
+.navbar a:hover{
+    color: rgb(201, 201, 201);
+}
+.logo{
+    font-style: italic;
+    margin-left: auto;
+    color: white;
+    padding: 20px;
+}
+.pic img{
+    height: 400px;
+    width: 400px;
+    border-radius: 60%;
+    padding: 50px;
+    margin-left: 250px;
+}
+.seg2{
+    display: inline-flex;
+    background-color: rgb(201, 201, 201);
+    width: 1528px;
+    height: 700px;
+}
+.name1{
+    padding: 150px;
+    margin-left: -150px;
+    
+}
+.name{
+    font-size: 60px;
+}
+.para{
+    font-size: 25px;
+}
+.connect{
+    margin-top: 20px;
+    border: 1px solid white;
+    background-color: gray;
+    color: white;
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    
+}
+.connect a{
+    text-decoration: none;
+    color: white;
+}
+.connect a:hover{
+    color: rgb(201, 201, 201);
+}
+.seg3{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height: 400px;
+    margin-left: 300px;
+    gap: 60px;
+}
+.skill{
+    padding: 50px;
+    text-align: center;
+    font-style: italic;
+}
+.box{
+    margin-left: 100px;
+}
+h4{
+    font-size: 20px;
+}
+.me{
+    text-align: center;
+}
+.parame{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5%;
+    font-size: 20px;
+    font-style: italic;
+}
+.aboutme{
+    height: 500px;
+}
+html{
+    scroll-behavior: smooth;
+}
+#about {
+    padding: 100px;
+    background-color: #f2f2f2;
+    text-align: center;
+    scroll-margin-top: 80px;
+}
+
+#about h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 20px;
+    color: #333;
+    line-height: 1.6;
+    width: 70%;
+    margin: auto;
+}
+#contact {
+  text-align: center;
+  padding: 40px; 
+  background-color: #f2f2f2;
+  scroll-margin-top: 70px; 
+}
+
+.contact1 a{
+    text-decoration: none;
+    color: blue;
+}
