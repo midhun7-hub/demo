@@ -1,82 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="portfolio.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio – Midhun</title>
+  <link rel="stylesheet" href="portfolio.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="nav">
-        <h2 class="logo">Portfolio</h2>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#resume">RESUME</a></li>
-                <li><a href="https://github.com/midhun7-hub/demo">GITHUB</a></li>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#contact">CONTACT</a></li>
-            </ul>
-        </nav>
+  <header class="header">
+    <div class="container">
+      <h2 class="logo">Portfolio</h2>
+      <nav class="nav">
+        <ul>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="https://github.com/midhun7-hub/demo" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </div>
-    <div class="seg2">
-        <div class="pic">
-            <img src="midhun2.jpg">
-        </div>
-        <div class="name1">
-            <h1 class="name">Hey there! I'm Midhun</h1>
-            <p class="para">Software Developer <br><br></p>
-            <p>Developer. Dreamer. Explorer. Coding my way around the world. <br></p>
-            <button class="connect"><a href="https://www.linkedin.com/in/midhun-balachandran-472214293">CONNECT</a></button>
-        </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-image">
+        <img src="midhun2.jpg" alt="Midhun Balachandran">
+      </div>
+      <div class="hero-content">
+        <h1>Hey there! I’m Midhun</h1>
+        <p class="subtitle">Software Developer</p>
+        <p>Developer. Dreamer. Explorer. Coding my way around the world.</p>
+        <a class="btn" href="https://www.linkedin.com/in/midhun-balachandran-472214293" target="_blank" rel="noopener">Connect</a>
+      </div>
     </div>
-    <h1 class="skill">SKILLS</h1> 
-    <div class="seg3">
-        <div class="box">
-            <h4>Technical Skills <br></h4>
-            <ul>
-                <br>
-                <li>UI/UX(Figma)</li>
-                <li>HTML, CSS, JS</li>
-                <li>Node.js, Express.js</li>
-                <li>MongoDB</li>
-                <li>Java</li>
-            </ul>
+  </section>
+
+  <section class="skills" id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h4>Technical Skills</h4>
+          <ul>
+            <li>UI/UX (Figma)</li>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Node.js, Express.js</li>
+            <li>MongoDB</li>
+            <li>Java</li>
+          </ul>
         </div>
-        <div class="box">
-            <h4>Tools & Platforms <br></h4>
-            <ul>
-                <br>
-                <li>VS Code</li>
-                <li>Version Control(Git, GitHub)</li>
-            </ul>
+        <div class="skill-card">
+          <h4>Tools & Platforms</h4>
+          <ul>
+            <li>VS Code</li>
+            <li>Version Control (Git, GitHub)</li>
+          </ul>
         </div>
-        <div class="box">
-            <h4>Soft Skills <br></h4>
-            <ul>
-                <br>
-                <li> Problem Solving & Logical Thinking</li>
-                <li>Attentin to detail</li>
-                <li>Collaboration and teamwork</li>
-                <li>Communication Skills</li>
-                <li>Time management and self-learning</li>
-            </ul>
+        <div class="skill-card">
+          <h4>Soft Skills</h4>
+          <ul>
+            <li>Problem Solving & Logical Thinking</li>
+            <li>Attention to Detail</li>
+            <li>Collaboration & Teamwork</li>
+            <li>Communication Skills</li>
+            <li>Time Management & Self-Learning</li>
+          </ul>
         </div>
+      </div>
     </div>
-    <div id="about">
-        <h1 class="me">About me</h1>
-        <br>
-        <p class="parame">I am an aspiring software developer with a passion for building efficient and user-friendly web applications.
-        I enjoy working with modern technologies like HTML, CSS, JavaScript, and the MERN stack.
-        Learning new tools and solving challenging problems motivates me every day.
-        I love turning ideas into functional projects that make an impact.
-        Collaboration, creativity, and continuous growth are at the heart of my journey as a developer.
-        I aim to build innovative solutions while constantly improving my skills and exploring new opportunities.</p>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I am an aspiring software developer with a passion for building efficient and user-friendly web applications. I enjoy working with modern technologies like HTML, CSS, JavaScript, and the MERN stack. Learning new tools and solving challenging problems motivates me every day. I love turning ideas into functional projects that make an impact. Collaboration, creativity, and continuous growth are at the heart of my journey as a developer. I aim to build innovative solutions while constantly improving my skills and exploring new opportunities.</p>
     </div>
-    <div id="contact">
-        <h3 class="contact1">LinkedIn - <a href="https://www.linkedin.com/in/midhun-balachandran-472214293">View Profile</a> </h3>
-        <h3 class="contact1">GitHub - <a href="https://github.com/midhun7-hub/demo">View Profile</a></h3>
-        <h3 class="contact1">📞 Contact - <a href="tel:+919597837448">9597837448</a></h3>
-        <h3 class="contact1">📧 Mail - <a href="mailto:midhun77msdcr@gmail.com">midhun77msdcr@gmail.com</a></h3>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <ul class="contact-list">
+        <li>LinkedIn – <a href="https://www.linkedin.com/in/midhun-balachandran-472214293" target="_blank" rel="noopener">View Profile</a></li>
+        <li>GitHub – <a href="https://github.com/midhun7-hub/demo" target="_blank" rel="noopener">View Profile</a></li>
+        <li>📞 Contact – <a href="tel:+919597837448">9597837448</a></li>
+        <li>📧 Mail – <a href="mailto:midhun77msdcr@gmail.com">midhun77msdcr@gmail.com</a></li>
+      </ul>
     </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Midhun Balachandran. All rights reserved.</p>
+    </div>
+  </footer>
+
 </body>
 </html>
