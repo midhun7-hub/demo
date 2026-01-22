@@ -4,6 +4,7 @@ const app = express();
 const dotenv = require('dotenv');
 const authRoutes = require('./routes/authRoutes');
 const taskRoutes = require('./routes/taskRoutes');
+
 dotenv.config();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
